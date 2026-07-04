@@ -98,3 +98,8 @@ answer above came back with `"source": "graph"` — Cognee built an actual knowl
 from six disconnected sentences and reasoned over entity relationships (Doug → wedding,
 Stu → Jade → chapel, Stu's card → the suite charge) to answer natural-language questions
 no single sentence answers on its own.
+
+## Credits
+
+Built on [Cognee](https://github.com/topoteretes/cognee), the open-source hybrid
+graph-vector memory layer this project's memory lifecycle is powered by.
