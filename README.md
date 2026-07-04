@@ -85,6 +85,12 @@ build — the call is wired up correctly (see `cmd_improve` in `main.py`) and fa
 a clear message rather than crashing, since the endpoint isn't deployed cloud-side yet.
 `remember()`, `recall()`, and `forget()` are fully verified end-to-end against Cognee Cloud.
 
+## AI tools disclosure
+
+Built with the help of [Claude Code](https://claude.com/claude-code) (Anthropic) for
+scaffolding, debugging, git/GitHub setup, and README drafting. All Cognee integration logic,
+API calls, and design decisions were directed and reviewed by the author.
+
 ## Why Cognee
 
 This is deliberately not a wrapper around a vector DB with extra steps. Every `recall()`
