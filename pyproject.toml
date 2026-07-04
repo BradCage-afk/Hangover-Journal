@@ -1,0 +1,9 @@
+[project]
+name = "hangover-journal"
+version = "0.1.0"
+description = "An AI memory agent for the WeMakeDevs x Cognee hackathon — a journal that never forgets last night"
+requires-python = ">=3.11"
+dependencies = [
+    "cognee>=1.2.2",
+    "python-dotenv>=1.2.2",
+]
